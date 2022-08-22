@@ -1,0 +1,12 @@
+
+U
+java:S1854":Remove this useless assignment to local variable "driver".(İÌúãıÿÿÿÿ
+T
+java:S1117"9Rename "driver" which hides the field declared at line 8.(İÌúãıÿÿÿÿ
+F
+java:S1481"+Remove this unused "driver" local variable.(İÌúãıÿÿÿÿ
+E
+java:S1068"*Remove this unused "driver" private field.(š…ŒÅøÿÿÿÿ
+E
+java:S1144
+"*Remove this unused private "setUp" method.(ŞòåÃùÿÿÿÿ
