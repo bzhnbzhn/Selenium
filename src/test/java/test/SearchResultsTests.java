@@ -1,6 +1,7 @@
 package test;
 
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 public class SearchResultsTests extends BaseTest {
@@ -19,7 +20,7 @@ public class SearchResultsTests extends BaseTest {
     public void findProductByNameAndAddToTheCart() {
         profileSetUp();
         getHomePage().searchByKeyWord(SEARCH_KEYWORD);
-        getSearchResultPage().addBookToCartByName(SEARCH_BOOK);
+        getSearchResultPage().addBookToCart(SEARCH_BOOK);
         tearDown();
     }
 
