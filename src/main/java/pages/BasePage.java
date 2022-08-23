@@ -10,8 +10,4 @@ public class BasePage {
     public BasePage(WebDriver driver) {
         this.driver = driver;
     }
-
-    public void implicitWait(long timeToWait) {
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    }
 }
