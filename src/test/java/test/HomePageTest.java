@@ -61,6 +61,4 @@ public class HomePageTest extends BaseTest{
         getHomePage().findElement(SEARCH_BUTTON);
         tearDown();
     }
-
 }
-

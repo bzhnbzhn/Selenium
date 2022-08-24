@@ -5,7 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import pages.CartPage;
 import pages.HomePage;
+import pages.ProductDetailPage;
 import pages.SearResultPage;
 
 public class BaseTest {
@@ -43,5 +45,13 @@ public class BaseTest {
 
     public SearResultPage getSearchResultPage(){
         return new SearResultPage(getDriver());
+    }
+
+    public CartPage getCartPage(){
+        return new CartPage(getDriver());
+    }
+
+    public ProductDetailPage getProductDetailPage(){
+        return new ProductDetailPage(getDriver());
     }
 }

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344f7756-d6d0-4133-8c18-f7b77b93b9a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductDetailPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/SearchResultsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/SearchResultsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Selenuim_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,39 +62,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchResultsTests.findProductByNameAndAddToTheCart">
-    <configuration name="HomePageTest.checkThatHomePageContainsLogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.HomePageTest" />
-      <option name="METHOD_NAME" value="checkThatHomePageContainsLogo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest.checkThatHomePageContainsSearchField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.HomePageTest" />
-      <option name="METHOD_NAME" value="checkThatHomePageContainsSearchField" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SearchResultsTests.findProductByNameAndOpenPDP">
     <configuration name="HomePageTest.checkThatHomePageContainsSingLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
@@ -100,6 +74,22 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.HomePageTest" />
       <option name="METHOD_NAME" value="checkThatHomePageContainsSingLink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchResultsTests.checkThatHomePageContainsLogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SearchResultsTests" />
+      <option name="METHOD_NAME" value="checkThatHomePageContainsLogo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,13 +127,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchResultsTests.findProductByNameAndOpenPDP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SearchResultsTests" />
+      <option name="METHOD_NAME" value="findProductByNameAndOpenPDP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchResultsTests.findProductByNameAndOpenPDP" />
         <item itemvalue="JUnit.SearchResultsTests.findProductByNameAndAddToTheCart" />
-        <item itemvalue="JUnit.HomePageTest.checkThatHomePageContainsSearchField" />
-        <item itemvalue="JUnit.HomePageTest.checkThatHomePageContainsLogo" />
-        <item itemvalue="JUnit.HomePageTest.checkThatHomePageContainsSingLink" />
+        <item itemvalue="JUnit.SearchResultsTests.checkThatHomePageContainsLogo" />
         <item itemvalue="JUnit.SearchResultsTests.checkThatUrlContainsSearchWord" />
+        <item itemvalue="JUnit.HomePageTest.checkThatHomePageContainsSingLink" />
       </list>
     </recent_temporary>
   </component>
@@ -168,5 +174,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="pages.SearResultPage" memberName="book" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
