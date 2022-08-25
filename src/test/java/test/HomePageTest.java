@@ -1,6 +1,7 @@
 package test;
 
-import org.junit.jupiter.api.Test;
+
+import org.testng.annotations.Test;
 
 public class HomePageTest extends BaseTest{
 
@@ -15,50 +16,36 @@ public class HomePageTest extends BaseTest{
 
     @Test
     public void checkThatHomePageContainsLogo() {
-        profileSetUp();
-        getHomePage().findElement(SITE_LOGO);
-        tearDown();
+        getHomePage().findElementByXpath(SITE_LOGO);
     }
 
     @Test
     public void checkThatHomePageContainsSingLink() {
-        profileSetUp();
-        getHomePage().findElement(SING_LINK);
-        tearDown();
+        getHomePage().findElementByXpath(SING_LINK);
     }
 
     @Test
     public void checkThatHomePageContainsSingIcon() {
-        profileSetUp();
-        getHomePage().findElement(SING_ICON);
-        tearDown();
+        getHomePage().findElementByClassName(SING_ICON);
     }
 
     @Test
     public void checkThatHomePageContainsNavigationMenu() {
-        profileSetUp();
-        getHomePage().findElement(NAVIGATION_MENU);
-        tearDown();
+        getHomePage().findElementByClassName(NAVIGATION_MENU);
     }
 
     @Test
     public void checkThatHomePageContainsBanner() {
-        profileSetUp();
-        getHomePage().findElement(BANNER);
-        tearDown();
+        getHomePage().findElementByXpath(BANNER);
     }
 
     @Test
     public void checkThatHomePageContainsSearchField() {
-        profileSetUp();
-        getHomePage().findElement(SEARCH_FIELD);
-        tearDown();
+        getHomePage().findElementByXpath(SEARCH_FIELD);
     }
 
     @Test
     public void checkThatHomePageContainsSearchButton() {
-        profileSetUp();
-        getHomePage().findElement(SEARCH_BUTTON);
-        tearDown();
+        getHomePage().findElementByXpath(SEARCH_BUTTON);
     }
 }

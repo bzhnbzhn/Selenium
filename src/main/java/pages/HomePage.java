@@ -18,8 +18,13 @@ public class HomePage extends BasePage {
         driver.findElement(By.xpath(SEARCH_BUTTON)).click();
     }
 
-    public void findElement(String element) {
+    public void findElementByXpath(String element) {
         driver.get("https://www.bookdepository.com/");
         driver.findElement(By.xpath(element)).isDisplayed();
+    }
+
+    public void findElementByClassName(String element) {
+        driver.get("https://www.bookdepository.com/");
+        driver.findElement(By.className(element)).isDisplayed();
     }
 }

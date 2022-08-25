@@ -26,7 +26,7 @@ public class SearResultPage extends BasePage {
     public WebElement findBook(String bookName) {
         return getSearchResultBooksElements()
                 .stream()
-                .filter(name -> name.getText().contains(bookName))
+                .filter(book -> book.getText().contains(bookName))
                 .findFirst()
                 .get();
     }
