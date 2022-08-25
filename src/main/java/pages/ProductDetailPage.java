@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ProductDetailPage extends BasePage{
+public class ProductDetailPage extends BasePage {
 
     private static final String BOOK_NAME = "h1";
 

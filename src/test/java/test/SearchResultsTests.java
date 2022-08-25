@@ -12,14 +12,14 @@ public class SearchResultsTests extends BaseTest {
     public void findProductByNameAndAddToTheCart() {
         getHomePage().searchByKeyWord(SEARCH_KEYWORD);
         getSearchResultPage().addBookToCart(SEARCH_BOOK);
-        Assert.assertTrue((getCartPage().getBookName()).contains(SEARCH_BOOK),"Book was not added to the cart");
+        Assert.assertTrue((getCartPage().getBookName()).contains(SEARCH_BOOK), "Book was not added to the cart");
     }
 
     @Test
     public void findProductByNameAndOpenPDP() {
         getHomePage().searchByKeyWord(SEARCH_KEYWORD);
         getSearchResultPage().openBookPDP(SEARCH_BOOK);
-        Assert.assertTrue((getProductDetailPage().getBookName()).contains(SEARCH_BOOK),"Not correct product detail page was open");
+        Assert.assertTrue((getProductDetailPage().getBookName()).contains(SEARCH_BOOK), "Not correct product detail page was open");
     }
 }
 

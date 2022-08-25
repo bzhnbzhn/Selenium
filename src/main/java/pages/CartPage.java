@@ -12,6 +12,6 @@ public class CartPage extends BasePage {
     }
 
     public String getBookName() {
-         return driver.findElement(By.xpath(ADDED_BOOK_NAME_TO_CART)).getText();
+        return driver.findElement(By.xpath(ADDED_BOOK_NAME_TO_CART)).getText();
     }
 }

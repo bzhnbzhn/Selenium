@@ -8,7 +8,7 @@ public class BasePage {
     static WebDriver driver;
 
     public BasePage(WebDriver driver) {
-        this.driver = driver;
+        BasePage.driver = driver;
     }
 
     public void implicitWait(long timeToWait) {

@@ -3,7 +3,7 @@ package test;
 
 import org.testng.annotations.Test;
 
-public class HomePageTest extends BaseTest{
+public class HomePageTest extends BaseTest {
 
     private static final String SITE_LOGO = "//img[@alt='Bookdepository.com']";
     private static final String SING_LINK = "//a[@href='/account/login/to/account']";

@@ -34,15 +34,15 @@ public class BaseTest {
         return new HomePage(getDriver());
     }
 
-    public SearResultPage getSearchResultPage(){
+    public SearResultPage getSearchResultPage() {
         return new SearResultPage(getDriver());
     }
 
-    public CartPage getCartPage(){
+    public CartPage getCartPage() {
         return new CartPage(getDriver());
     }
 
-    public ProductDetailPage getProductDetailPage(){
+    public ProductDetailPage getProductDetailPage() {
         return new ProductDetailPage(getDriver());
     }
 }
